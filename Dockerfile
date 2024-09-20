@@ -1,4 +1,4 @@
-# Dockerfile for github.com/alpkeskin/mosint
+# Dockerfile for github.com/DannyLuu/mosint
 
 # Build
 FROM golang:1.21.0-alpine AS builder

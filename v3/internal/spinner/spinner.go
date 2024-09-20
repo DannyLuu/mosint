@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package spinner
 

@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package output
 
@@ -7,14 +7,14 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/alpkeskin/mosint/v3/internal/runner"
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
-	"github.com/alpkeskin/mosint/v3/pkg/dns"
-	"github.com/alpkeskin/mosint/v3/pkg/services/breachdirectory"
-	"github.com/alpkeskin/mosint/v3/pkg/services/emailrep"
-	"github.com/alpkeskin/mosint/v3/pkg/services/haveibeenpwned"
-	"github.com/alpkeskin/mosint/v3/pkg/services/hunter"
-	"github.com/alpkeskin/mosint/v3/pkg/services/ipapi"
+	"github.com/DannyLuu/mosint/v3/internal/runner"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/pkg/dns"
+	"github.com/DannyLuu/mosint/v3/pkg/services/breachdirectory"
+	"github.com/DannyLuu/mosint/v3/pkg/services/emailrep"
+	"github.com/DannyLuu/mosint/v3/pkg/services/haveibeenpwned"
+	"github.com/DannyLuu/mosint/v3/pkg/services/hunter"
+	"github.com/DannyLuu/mosint/v3/pkg/services/ipapi"
 )
 
 type Output struct {

@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package dns
 
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
 	"github.com/domainr/dnsr"
 	"github.com/fatih/color"
 )

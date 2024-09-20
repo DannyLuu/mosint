@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package engine
 
@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/alpkeskin/mosint/v3/internal/config"
-	. "github.com/alpkeskin/mosint/v3/internal/config"
-	"github.com/alpkeskin/mosint/v3/internal/output"
-	"github.com/alpkeskin/mosint/v3/internal/runner"
-	"github.com/alpkeskin/mosint/v3/pkg/verification"
+	"github.com/DannyLuu/mosint/v3/internal/config"
+	. "github.com/DannyLuu/mosint/v3/internal/config"
+	"github.com/DannyLuu/mosint/v3/internal/output"
+	"github.com/DannyLuu/mosint/v3/internal/runner"
+	"github.com/DannyLuu/mosint/v3/pkg/verification"
 	"github.com/dimiro1/banner"
 	"github.com/fatih/color"
 	"github.com/mattn/go-colorable"
@@ -105,14 +105,14 @@ func configHelp() string {
 	 Or you can use --config flag to specify a config file
 
 	 You can find an example config file in the repository:
-	 https://github.com/alpkeskin/mosint/blob/master/example-config.yaml
+	 https://github.com/DannyLuu/mosint/blob/master/example-config.yaml
 	`
 }
 
 func init() {
 	template := `{{ .Title "mosint" "" 2 }}
 	{{ .AnsiColor.BrightWhite }}v3.0{{ .AnsiColor.Default }}
-	{{ .AnsiColor.BrightCyan }}https://github.com/alpkeskin/{{ .AnsiColor.Default }}
+	{{ .AnsiColor.BrightCyan }}https://github.com/DannyLuu/{{ .AnsiColor.Default }}
 	Now: {{ .Now "Monday, 2 Jan 2006" }}`
 
 	banner.InitString(colorable.NewColorableStdout(), true, true, template)

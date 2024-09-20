@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package psbdmp
 
@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
 	"github.com/fatih/color"
 )
 

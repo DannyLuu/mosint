@@ -1,11 +1,11 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package verification
 
 import (
 	emailverifier "github.com/AfterShip/email-verifier"
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
 )
 
 type Verification struct {

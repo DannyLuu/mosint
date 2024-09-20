@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package googlesearch
 
@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
 	"github.com/fatih/color"
 	"github.com/gocolly/colly/v2"
 )

@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package emailrep
 
@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/alpkeskin/mosint/v3/internal/config"
-	"github.com/alpkeskin/mosint/v3/internal/spinner"
+	"github.com/DannyLuu/mosint/v3/internal/config"
+	"github.com/DannyLuu/mosint/v3/internal/spinner"
 	"github.com/fatih/color"
 )
 

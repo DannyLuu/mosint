@@ -1,21 +1,21 @@
 /*
-Copyright © 2023 github.com/alpkeskin
+Copyright © 2023 github.com/DannyLuu
 */
 package runner
 
 import (
-	"github.com/alpkeskin/mosint/v3/pkg/dns"
-	"github.com/alpkeskin/mosint/v3/pkg/scrape/googlesearch"
-	"github.com/alpkeskin/mosint/v3/pkg/services/breachdirectory"
-	"github.com/alpkeskin/mosint/v3/pkg/services/emailrep"
-	"github.com/alpkeskin/mosint/v3/pkg/services/haveibeenpwned"
-	"github.com/alpkeskin/mosint/v3/pkg/services/hunter"
-	"github.com/alpkeskin/mosint/v3/pkg/services/intelx"
-	"github.com/alpkeskin/mosint/v3/pkg/services/ipapi"
-	"github.com/alpkeskin/mosint/v3/pkg/services/psbdmp"
-	"github.com/alpkeskin/mosint/v3/pkg/social/instagram"
-	"github.com/alpkeskin/mosint/v3/pkg/social/spotify"
-	"github.com/alpkeskin/mosint/v3/pkg/social/twitter"
+	"github.com/DannyLuu/mosint/v3/pkg/dns"
+	"github.com/DannyLuu/mosint/v3/pkg/scrape/googlesearch"
+	"github.com/DannyLuu/mosint/v3/pkg/services/breachdirectory"
+	"github.com/DannyLuu/mosint/v3/pkg/services/emailrep"
+	"github.com/DannyLuu/mosint/v3/pkg/services/haveibeenpwned"
+	"github.com/DannyLuu/mosint/v3/pkg/services/hunter"
+	"github.com/DannyLuu/mosint/v3/pkg/services/intelx"
+	"github.com/DannyLuu/mosint/v3/pkg/services/ipapi"
+	"github.com/DannyLuu/mosint/v3/pkg/services/psbdmp"
+	"github.com/DannyLuu/mosint/v3/pkg/social/instagram"
+	"github.com/DannyLuu/mosint/v3/pkg/social/spotify"
+	"github.com/DannyLuu/mosint/v3/pkg/social/twitter"
 	"github.com/gammazero/workerpool"
 )
 

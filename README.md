@@ -5,8 +5,8 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://goreportcard.com/badge/github.com/alpkeskin/mosint"><img src="https://goreportcard.com/badge/github.com/alpkeskin/mosint"></a>
-<a href="https://github.com/alpkeskin/mosint/releases"><img src="https://img.shields.io/github/release/alpkeskin/mosint"></a>
+<a href="https://goreportcard.com/badge/github.com/DannyLuu/mosint"><img src="https://goreportcard.com/badge/github.com/DannyLuu/mosint"></a>
+<a href="https://github.com/DannyLuu/mosint/releases"><img src="https://img.shields.io/github/release/DannyLuu/mosint"></a>
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ Mosint is an automated email osint tool written in Go that allows you investigat
 # Installation
 
 ```sh
-go install -v github.com/alpkeskin/mosint/v3/cmd/mosint@latest
+go install -v github.com/DannyLuu/mosint/v3/cmd/mosint@latest
 ```
 
 # Services
