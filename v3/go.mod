@@ -1,4 +1,4 @@
-module github.com/alpkeskin/mosint/v3
+module github.com/DannyLuu/mosint/v3
 
 go 1.20
 
