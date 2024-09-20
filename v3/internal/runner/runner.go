@@ -55,9 +55,20 @@ func New(email string) *Runner {
 
 func (c *Runner) Start() {
 	email := c.Email
+
+	// Extract the part of the email before the '@'
+	atIndex := strings.Index(email, "@")
+	if atIndex == -1 {
+		// Handle invalid email case
+		println("Invalid email format")
+		return
+	}
+	emailBeforeAt := email[:atIndex]
+	
 	runners := []func(string){
 		c.DnsC.Resolver,
 		c.GoogleSearchC.Search,
+		func(s string) { c.GoogleSearchC.Search(emailBeforeAt) }, // Search email minus the '@'
 		c.BreachDirectoryC.Lookup,
 		c.HaveibeenpwnedC.Lookup,
 		c.EmailRepC.Lookup,
